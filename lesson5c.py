@@ -10,5 +10,10 @@ simpleInterest(45000, 7 , 8)
 
 # Use the same function inside of a loop to calculate two other simple interests. Note use your own principal, rate and time.
 
-simpleInterest(24000, 15, 10)
-simpleInterest(300000, 20, 5)
+Interest = [
+    (24000, 15, 10),
+    (300000, 20, 5)
+]
+
+for p, r, t in Interest:
+    simpleInterest(p, r, t)

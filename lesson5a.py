@@ -45,8 +45,7 @@ def divide():
     number2 = int(input("Enter the second number"))
     quotient = number1 / number2
     print("THe answer is: ", quotient)
+    print("--------")
 
-divide()
-
-for function in range(2):
+for function in range(3):
     divide()
