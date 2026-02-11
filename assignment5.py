@@ -3,10 +3,12 @@
 # Uses arithmetic operators to calculate the area of a rectangle
 # Prints the result
 
-length = 90
-width = 40
-Area = length * width
-print("The area of the rectangle is: ", Area,"squared centimetre")
+def area():
+    length = 90
+    width = 40
+    area = length * width
+    print(area)
+area()
 
 print("===============================================================")
 # Function With Parameters
@@ -19,10 +21,10 @@ def values(x, y):
     difference = x - y
     product = x * y
     division = x / y
-    print("The answer is: ", sum)
-    print("The answer is: ", difference)
-    print("The answer is: ", product)
-    print("The answer is: ", division)
+    print("The sum is: ", sum)
+    print("The diffference is: ", difference)
+    print("The product is: ", product)
+    print("The quotient is: ", division)
 
 values(40, 8)
 
