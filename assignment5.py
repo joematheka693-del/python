@@ -8,6 +8,7 @@ width = 40
 Area = length * width
 print("The area of the rectangle is: ", Area,"squared centimetre")
 
+print("===============================================================")
 # Function With Parameters
 # Create a function that:
 # Accepts two numbers as parameters
@@ -25,6 +26,7 @@ def values(x, y):
 
 values(40, 8)
 
+print("===============================================================")
 # Control Statement (if...elif...else)
 # Write a function that:
 # Accepts a number (use input function)
@@ -40,14 +42,23 @@ elif number == 0 :
 else:
     print("Positive")
 
+print("===============================================================")
 # Loop with Arithmetic
 # Write a function that:
 # Accepts a number n
 # Uses a for loop
 # Calculates the sum of numbers from 1 to n
 
-number = int(input("Enter a number: "))
+def sum_to_n(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
 
+print(sum_to_n(100))
+
+
+print("===============================================================")
 # While Loop
 # Write a function that:
 # Accepts a number (Use input() function)
